@@ -5,6 +5,6 @@ using namespace std;
 
 // メイン関数
 int main() {
-    cout << "こんにちは" << endl;
-    cout << "AtCoder" << endl;
+    cout << "いつも" << 2525 << endl;
+    cout << "AtCoderくん"<< endl;
 }
