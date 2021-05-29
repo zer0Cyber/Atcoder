@@ -6,7 +6,9 @@ using namespace std;
 // メイン関数
 int main() {
     // cout << "こんにちは世界" << endl;
-    cout << "a";
-    cout << "b" << endl;
-    cout << "c" << "d" << endl;
+    // cout << "a";
+    // cout << "b" << endl;
+    // cout << "c" << "d" << endl;
+
+    cout << 2021 << endl;
 }
