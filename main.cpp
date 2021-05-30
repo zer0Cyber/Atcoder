@@ -5,5 +5,14 @@ using namespace std;
 
 // メイン関数
 int main() {
-    cout << (100 + 1)  * 100 * 1/2 << endl;
+
+    // int name;
+
+    // name = 10;
+
+    int name = 10;
+
+    cout << name << endl;
+    // cout << name + 2 << endl;
+    // cout << name  * 3 << endl;
 }
