@@ -6,11 +6,12 @@ using namespace std;
 // メイン関数
 int main() {
 
-    int i = 10;
-    double d = 0.5;
+    int i = 30;
+    double d = 1.5;
     string s = "Hello";
 
-    cout << i << endl;
-    cout << d << endl;
-    cout << s << endl;
+  cout << i + d << endl; // 31.5
+  cout << i * d << endl; // 45
+  cout << 45 / 2 << endl; // 22 小数点以下切り捨て
+  cout << i * d / 2 << endl; // 22.5 小数点以下も残る
 }
