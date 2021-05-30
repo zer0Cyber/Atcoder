@@ -6,13 +6,11 @@ using namespace std;
 // メイン関数
 int main() {
 
-    // int name;
+    int a = 10;
+    int b;
+    b = a; //b=10
+    a = 5; //a=5
 
-    // name = 10;
-
-    int name = 10;
-
-    cout << name << endl;
-    // cout << name + 2 << endl;
-    // cout << name  * 3 << endl;
+    cout << a << endl;
+    cout << b << endl;
 }
