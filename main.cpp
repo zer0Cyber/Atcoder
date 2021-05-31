@@ -3,10 +3,8 @@ using namespace std;
 
 int main() {
 
-  // int a;
-  string text;
+  int a, b, c;
 
-  cin >> text;
-
-  cout << text << endl;
+  cin >> a >> b >> c;
+  cout << a * b * c << endl;
 }
