@@ -2,8 +2,10 @@
 using namespace std;
 
 int main() {
-  int A, B;
+  // ここに追記
+  int a, b, total;
 
-  cin >> A >> B;
-  cout << A + B << endl;
+  cin >> a >> b;
+  total = a + b;
+  cout << total << endl;
 }
