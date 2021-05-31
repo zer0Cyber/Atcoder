@@ -3,10 +3,10 @@ using namespace std;
 
 int main() {
 
-  int a;
+  // int a;
+  string text;
 
-  // 入力を受け取る
-  cin >> a;
+  cin >> text;
 
-  cout << a * 10 << endl;
+  cout << text << endl;
 }
