@@ -23,5 +23,7 @@ int main() {
   int R, G;
   cin >> R >> G;
 
-  cout << 2 * G - R << endl;
+  int ans = 2 * G - R;
+
+  cout << ans << endl;
 }
