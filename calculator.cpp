@@ -9,24 +9,15 @@ int main() {
   if (op == "+") {
     cout << A + B << endl;
   }
-
-  // ここにプログラムを追記
-
-  if (op == "-") {
+  else if(op == "-") {
     cout << A - B << endl;
   }
-
-  if (op == "*") {
+  else if(op == "*") {
     cout << A * B << endl;
   }
-  if (op == "/") {
-    if(B == 0) {
-      cout << "error"<< endl;
-    } else {
+  else if(op == "/" && B != 0) {
     cout << A / B << endl;
-    }
   }
-  if (op == "?" || op == "=" || op == "!") {
+  else {
     cout << "error"<< endl;
   }
-}
